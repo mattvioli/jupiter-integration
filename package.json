@@ -1,0 +1,25 @@
+{
+  "name": "@hydraprotocol/jupiter",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "yarn jest",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@solana/web3.js": "1.53.0",
+    "jsbi": "3.1.5",
+    "@hydraprotocol/sdk": "*",
+    "@hydraprotocol/config": "*",
+    "@pythnetwork/client": "2.7.1"
+  },
+  "devDependencies": {
+    "@project-serum/anchor": "0.25.0",
+    "@hydraprotocol/config": "*",
+    "typescript": "4.8.4"
+  }
+}

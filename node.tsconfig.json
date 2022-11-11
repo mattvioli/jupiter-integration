@@ -1,0 +1,9 @@
+{
+  "extends": "@hydraprotocol/config/module.tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./node",
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": ["./src/**/*.ts"]
+}
